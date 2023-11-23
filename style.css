@@ -1,0 +1,19 @@
+h1 {
+  color: rgb(255, 128, 149);
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.fall {
+  animation: fall_kf 2 linear infinite;
+}
+
+@keyframes fall_kf {
+  0% {
+    translate: 0 200;
+  }
+
+  100% {
+    translate: 0 -200;
+  }
+}
