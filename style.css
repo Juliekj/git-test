@@ -4,6 +4,10 @@ h1 {
   text-align: center;
 }
 
+p {
+  color: pink;
+}
+
 .fall {
   animation: fall_kf 2 linear infinite;
 }
